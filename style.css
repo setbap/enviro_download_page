@@ -479,18 +479,6 @@ input:-webkit-autofill:focus {
   position: relative;
 }
 
-.screen-slider .item::after {
-  content: "";
-  height: 2px;
-  width: 40px;
-  border-radius: 5px;
-  background-color: #000000;
-  z-index: 10;
-
-  position: absolute;
-  bottom: 5px;
-  right: 167%;
-}
 .screen-slider .item::before {
   content: "";
   height: 10px;
